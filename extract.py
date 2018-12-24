@@ -8,4 +8,5 @@ html_bb = urllib.urlopen(url)
 # print(html_bb)
 
 soup_obj = BeautifulSoup(html_bb, 'lxml')
-print(type(soup_obj))
+# print(type(soup_obj))
+print(soup_obj)
